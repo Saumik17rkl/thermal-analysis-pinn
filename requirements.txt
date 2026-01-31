@@ -1,0 +1,15 @@
+# Core runtime
+flask>=2.2,<3.0
+waitress>=2.1
+
+# Numerical computation
+numpy>=1.23
+
+# Testing
+pytest>=7.0
+
+# PINN / ML
+torch>=2.0
+
+# Cloud deployment
+gunicorn>=20.1

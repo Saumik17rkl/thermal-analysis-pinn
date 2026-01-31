@@ -1,0 +1,35 @@
+{
+  "processor": {
+    "die_length": 0.0525,
+    "die_width": 0.045,
+    "die_thickness": 0.0022,
+    "power": 150.0
+  },
+
+  "heat_sink": {
+    "sink_length": 0.09,
+    "sink_width": 0.116,
+    "base_thickness": 0.0025,
+    "number_of_fins": 60,
+    "fin_thickness": 0.0008,
+    "fin_height": 0.0245
+  },
+
+  "tim": {
+    "thermal_conductivity": 4.0,
+    "thickness": 0.0001
+  },
+
+  "air": {
+    "velocity": 1.0,
+    "thermal_conductivity": 0.0262,
+    "kinematic_viscosity": 1.57e-5,
+    "prandtl_number": 0.71
+  },
+
+  "ambient": {
+    "temperature": 25.0
+  },
+
+  "junction_to_case_resistance": 0.1
+}
