@@ -47,6 +47,10 @@ def validate_payload(data):
 # -----------------------------
 # API route
 # -----------------------------
+@app.route("/", methods=["GET"])
+def home():
+    return jsonify({"message": "Thermal PINN API is running"}), 200
+
 @app.route("/thermal/predict", methods=["POST"])
 def predict_temperature():
     try:
